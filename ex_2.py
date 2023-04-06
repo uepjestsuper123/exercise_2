@@ -45,3 +45,15 @@ obwod_k = 2*pi*r
 pole_k = pi*r*r
 
 print("Obwod kola wynosi " + str(obwod_k) + ", a pole wynosi " + str(pole_k) + ".")
+
+# trapez
+
+e = 26 # dlugosc gornej podstawy
+f = 16 # dlugosc dolnej podstawy
+g = 13 # dlugosc bokow
+h = 12 # wysokosc
+
+obwod_t = e+f+2*g
+pole_t = e*h
+
+print("Obwod trapezu wynosi " + str(obwod_t) + ", a pole wynosi " + str(pole_t) + ".")
