@@ -36,3 +36,12 @@ obwod_p = 2*c+2*d
 pole_p = c*d
 
 print("Obwod prostokata wynosi " + str(obwod_p) + ", a pole wynosi " + str(pole_p) + ".")
+
+# kolo
+
+r = 5 # dlugosc promienia
+
+obwod_k = 2*pi*r
+pole_k = pi*r*r
+
+print("Obwod kola wynosi " + str(obwod_k) + ", a pole wynosi " + str(pole_k) + ".")
