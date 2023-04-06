@@ -26,3 +26,13 @@ pole = a*a
 print("Obwod kwadratu wynosi " + str(obwod) + ", a pole wynosi " + str(pole) + ".")
 
 print(f'Obwod kwadratu wynosi {obwod}, a pole wynosi {pole}.')
+
+# prostokat, kazdy osobny element ma byc commitnięty
+
+c = 10 # pierwsza dlugosc bokow
+d = 5 # druga dlugosc bokow
+
+obwod_p = 2*c+2*d
+pole_p = c*d
+
+print("Obwod prostokata wynosi " + str(obwod_p) + ", a pole wynosi " + str(pole_p) + ".")
