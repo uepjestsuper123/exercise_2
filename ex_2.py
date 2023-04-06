@@ -57,3 +57,14 @@ obwod_t = e+f+2*g
 pole_t = e*h
 
 print("Obwod trapezu wynosi " + str(obwod_t) + ", a pole wynosi " + str(pole_t) + ".")
+
+# romb
+
+i = 6 # wysokosc rombu
+j = 8 # szerokosc rombu
+k = sqrt(i*i+j*j)# dlugosc bokow rombu
+
+obwod_r = 4*k
+pole_r = 0.5*i*j
+
+print("Obwod rombu wynosi " + str(obwod_r) + ", a pole wynosi " + str(pole_r) + ".")
